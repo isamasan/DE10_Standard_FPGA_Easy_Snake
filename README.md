@@ -20,3 +20,5 @@ The user only interacts with the game through the keyboard of the PC to which th
 - P: This is the stop key ('parar' in spanish). If you press it, you stop the snake's progress and two options arise: you win the round or lose the game. The first situation occurs if the snake is stopped just before it hits the block. The second is if the key is pressed too early, away from the block. Logically, if the key is not pressed, the snake will not stop and will advance until it crashes into the block, which also means losing the game.
 
 The snake and the block appear on the LT24 display, the snake is green and the blocks are blue. The accumulated points appear on the 7-segment displays HEX0 and HEX1 of the DE10 Standard. If the game is lost, the points are deleted and an F appears on each 7-segment display. On the other hand if the round is won, all 10 LEDRs of the DE10 Standard light up.
+ 
+ For a full description of the project, read 'informe.pdf' (only in spanish).
